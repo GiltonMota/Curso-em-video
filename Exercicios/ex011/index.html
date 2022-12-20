@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <H1>Imagem dinâmica</H1>
+    <P>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</P>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="IMagens/imagemP.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="IMagens/imagemM.png" type="image/png">
+        <img src="IMagens/imagemG.png" alt="imagem flexível">
+    </picture>
+
+    <p>
+        <picture><!-- Sempre da imagem menor para a maior-->
+            <source media="(max-width: 750px )" srcset="IMagens/imag-P.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="IMagens/imag-M.png" type="image/png">
+            <img src="./IMagens/imag-G.png" alt="imagem com letra grande no meio e fundo colorido">
+        </picture>
+    </p>
+    <h1>Reproduzindo audios em HTML5</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" controls> 
+        <source src="media/musica1.mp3" type="audio/mpeg">
+    </audio>
+    <p>Infelizmente seu navegador não consegue reproduzir o áudio <a href="media/musica1.mp3" target="_blank" rel="external">Clique aqui para fazer download do arquivo MP3</a></p>
+         
+    
+</body>
+</html>

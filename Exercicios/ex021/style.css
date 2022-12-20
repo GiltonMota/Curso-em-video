@@ -1,0 +1,77 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+header{
+    
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+nav{
+    
+    padding: 3px;
+    box-shadow: 2px 2px 1px black;
+    background-color: gray;
+    border: 2px solid rgb(114, 116, 219);
+    padding: 2px;
+    margin: auto;
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;  
+            
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.596);
+}
+
+article {
+        background-color: lightgray;
+        padding: 5px
+}
+article > aside{
+    background-color: rgb(155, 155, 155);
+    color: rgb(5, 62, 112);
+    border-style: solid;
+    border: 2px solid double rgb(216, 105, 105);
+}
+footer {
+    background-color: black ;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;       
+   }
+
+   footer > p {
+
+    margin: 4px;
+   }
+   div#bola {
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+    background-color: azure;
+    border-radius: 50px 150px; 
+    text-align: center;
+    
+
+   }
+
+   
