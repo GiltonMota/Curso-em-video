@@ -8,7 +8,7 @@
     font-weight: normal;
 }
 
-
+/*variavel*/
 :root {
 
     --cor0: #c5ebd6;
@@ -181,6 +181,7 @@ aside {
 }
 
 aside > ul {
+    
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
     columns: 2;
